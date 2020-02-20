@@ -1,20 +1,23 @@
 package DataStructures;
 
 public class Library{
-    class Library{
-        int LibID
-        int books;
-        int shippable;
-        int signupTime;
+        public int LibID;
+        public int books;
+        public int shippable;
+        public int signupTime;
 
 
-        public int setLibID(int ID){
-            LibID = ID
+        public void setLibID(int ID){
+            LibID = ID;
         }
-        public int setBooks(int book){
-            books = book
+        public void setBooks(int book){
+            books = book;
         }
+        public void setShippable(int ship){
+            shippable = ship;
     }
+
+
 
 
 }
