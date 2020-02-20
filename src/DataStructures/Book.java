@@ -3,7 +3,7 @@ package DataStructures;
 public class Book{
     public int bookID;
 
-    public int setBookID (int IDNumber){
+    public void setBookID (int IDNumber){
         bookID = IDNumber;
     }
 }
